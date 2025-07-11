@@ -1,0 +1,151 @@
+/* media responsiveness */
+@media (max-width: 605px) {
+    .maincontainer{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -30vh;
+        }
+    .subcontainer{
+        width: 500px;
+        height: 540px;
+        }
+    .inputbox1{
+        margin-top: 35px;
+        margin-bottom: 80px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        }
+    .inputbox{
+        width: 438px;
+        padding-left: 60px;
+        }
+    .inputboxl{
+        width: 438px;
+        padding-left: 60px;
+        }
+    .indieitems{
+        width: 500px;
+    }
+    .indieitemsl{
+        width: 500px;
+    }
+    .object{
+        width: 500px;
+    }
+    .objectl{
+        width: 500px;
+    }
+
+    /* i have to use react stuff to do this */
+    .ojectremNuse{
+        background-color: transparent;
+        border: none;
+        position: relative;
+        top: 4px;
+        right: 36px;
+        margin: 0px;
+        width: 0px;
+    }
+
+    .fincont{
+        width: 500px;
+        font-family: "Josefin Sans" sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        border: none;
+        border-radius: 0px;
+        background-color: none;
+        color: none;
+    }
+    .fincontl{
+        width: 500px;
+        font-family: "Josefin Sans" sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        border: none;
+        border-radius: 0px;
+        background-color: none;
+        color: none;
+    }
+    #desktop{
+        display: none;
+    }
+    .stuff1{
+        margin-bottom: 33px;
+        height: 60px;
+        width: 500px;
+        border-radius: 0px 0px 4px 4px;
+        border: none;
+        border-top: 1.7px solid hsl(233, 14%, 35%);
+        background-color: hsl(235, 24%, 19%);
+        color:  hsl(0, 0%, 98%);
+        font-family: "Josefin Sans" sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .stuff1l{
+        margin-bottom: 33px;
+        height: 60px;
+        width: 500px;
+        border-radius: 0px 0px 4px 4px;
+        border: none;
+        border-top: 1.7px solid hsl(233, 11%, 84%);
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(237, 14%, 26%);
+        font-family: "Josefin Sans" sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .stuff2{
+        width: 500px;
+        height: 60px;
+        border-radius: 4px 4px 4px 4px;
+        border: none;
+        background-color: hsl(235, 24%, 19%);
+        color:  hsl(0, 0%, 98%);
+        font-family: "Josefin Sans" sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .stuff2l{
+        width: 500px;
+        height: 60px;
+        border-radius: 4px 4px 4px 4px;
+        border: none;
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(237, 14%, 26%);
+        font-family: "Josefin Sans" sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .fin{
+        top: 15px;
+        left: -135px;
+    }
+    .finl{
+        top: 15px;
+        left: -135px;
+    }
+    .find{
+        top: 15px;
+        left: 135px;
+    }
+    .findl{
+        top: 15px;
+        left: 135px;
+    }
+    .fina{
+        top: 16px;
+        left: -30px;
+    }
+    .finb{
+        top: 16px;
+        left: 5px;
+    }
+    .finc{
+        top: 16px;
+        left: 30px;
+    }
+}
