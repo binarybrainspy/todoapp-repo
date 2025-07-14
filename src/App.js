@@ -211,9 +211,9 @@ console.log(modeR + rCheck)
           {/* bottom layer */}
           <div className={fincont} id='desktop' >
             <span className={fin} >{totalTasks} items left</span>
-            <button className={fina} onClick={() => {setFilter('all');setallblue('all_blue');setactiveblue('');setcompblue('')}} id={blue} >All</button> {/* onClick={() => setFilter('all')} */}
-            <button className={finb} onClick={() => {setFilter('active');setallblue('');setactiveblue('active_blue');setcompblue('')}} id={ablue} >Active</button> {/* onClick={() => setFilter('active')} */}
-            <button className={finc} onClick={() => {setFilter('completed');setallblue('');setactiveblue('');setcompblue('comp_blue')}} id={cblue} >Completed</button> {/* onClick={() => setFilter('completed')} */}
+            <button className={fina} onClick={() => {setFilter('all');setallblue('all_blue');setactiveblue('');setcompblue('')}} id={blue} >All</button>
+            <button className={finb} onClick={() => {setFilter('active');setallblue('');setactiveblue('active_blue');setcompblue('')}} id={ablue} >Active</button>
+            <button className={finc} onClick={() => {setFilter('completed');setallblue('');setactiveblue('');setcompblue('comp_blue')}} id={cblue} >Completed</button>
             <button className={find} onClick={deleteAllCompleted} >Clear Completed</button>
           </div>
           {/* bottomlayer mobile */}
