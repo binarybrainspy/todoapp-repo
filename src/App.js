@@ -6,8 +6,8 @@ import bgl from './bg-desktop-light.jpg';
 // import bgmlight from './bg-mobile-light.jpg';
 import modea from './icon-sun.svg';
 import modeb from './icon-moon.svg';
-import nodea from './icon-check.svg'
-import nodeb from './icon-cross.svg'
+import nodea from './icon-check.svg';
+import nodeb from './icon-cross.svg';
 import './App.css';
 import './media.css';
 import './media2.css';
