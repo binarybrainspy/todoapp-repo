@@ -1,0 +1,21 @@
+.homecont{
+    background-color: hsl(235, 21%, 11%);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+.txt1{
+    margin-top: 350px;
+    color: white;
+    margin-bottom: 50px;
+}
+.btn1{
+    background-color: rgb(255, 145, 0);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    border: 1.5px solid white;
+}
